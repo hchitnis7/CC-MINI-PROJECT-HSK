@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* height: 500px; */
+}
+.container{
+    width: 300px;
+    margin: auto;
+    margin-top: 30vh;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input[type="text"]{
+    padding: 6px;
+    border-radius: 3px;
+}
+input[type="password"]{
+    padding: 6px;
+    border-radius: 3px;
+}
+.title{
+    font-family: verdana;
+    font-size: 21px;
+}
+.sign{
+    color: white;
+    width: 300px;
+    margin: auto;
+}
